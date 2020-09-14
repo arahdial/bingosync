@@ -222,6 +222,7 @@ class GameType(Enum):
     kingdom_hearts_2_final_mix = 218
     sludgelife = 219
     undertale = 220
+	bloodstained = 221
 
     def __str__(self):
         return self.short_name
@@ -690,6 +691,7 @@ GAME_GROUPS = {
     **singleton_group(GameType.battle_for_bikini_bottom, "SpongeBob SquarePants: Battle for Bikini Bottom", "BFBB"),
     **singleton_group(GameType.battleblock_theater, "BattleBlock Theater", "BBT"),
     **singleton_group(GameType.bloodborne, "Bloodborne", "Bloodborne"),
+	**singleton_group(GameType.bloodstained, "Bloodstained", "Bloodstained"),
     **singleton_group(GameType.cardfight_vanguard, "Cardfight!! Vanguard", "CFVG"),
     **singleton_group(GameType.castlevania_aria_of_sorrow, "Castlevania: Aria of Sorrow", "CV: AoS"),
     **singleton_group(GameType.cat_quest_2, "Cat Quest 2", "Cat Quest 2"),
